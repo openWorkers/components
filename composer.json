@@ -9,6 +9,9 @@
     "require": {
         "psr/log": "1.0.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
     "autoload": {
         "psr-0": {
             "OpenWorkers\\Components\\": "src/",
