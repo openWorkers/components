@@ -2,7 +2,10 @@
 
 namespace OpenWorkers\Components\Encoding;
 
-
+/**
+ * Class ArrayConverter
+ * @package OpenWorkers\Components\Encoding
+ */
 class ArrayConverter extends Converter
 {
     public function __construct(array $input, $baseEncodings = array('UTF-8', 'ISO-8859-1'))
