@@ -38,6 +38,4 @@ class ArrayConverter extends Converter
         }
         return $result;
     }
-
-
-} 
+}
