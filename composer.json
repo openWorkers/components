@@ -1,0 +1,18 @@
+{
+    "name": "openworkers/components",
+    "authors": [
+        {
+            "name": "Frank Hildebrandt",
+            "email": "frank.hildebrandt@me.com"
+        }
+    ],
+    "require": {
+        "psr/log": "1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "OpenWorkers\\Components\\": "src/",
+            "OpenWorkers\\ComponentsTests\\": "tests/"
+        }
+    }
+}
